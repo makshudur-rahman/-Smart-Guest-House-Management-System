@@ -1,0 +1,133 @@
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2025-04-28 11:25:07"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2025-04-28 11:25:07"}
+{"level":"info","message":"Starting web server...","timestamp":"2025-04-28 11:25:09"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2025-04-28 11:25:09"}
+{"level":"info","message":"Defining routes...","timestamp":"2025-04-28 11:25:09"}
+{"level":"info","message":"Routes defined","timestamp":"2025-04-28 11:25:09"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2025-04-28 11:25:09"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2025-04-28 11:25:09"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-28 11:29:28"}
+{"level":"info","message":"GET /api/v1/dashboard/admin","timestamp":"2025-04-28 11:29:29"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-28 11:29:33"}
+{"level":"info","message":"GET /api/v1/user/admin/users","timestamp":"2025-04-28 11:29:56"}
+{"body":{},"error":{"HTTPStatus":403,"cause":null,"isTrusted":true,"name":"Auth-error"},"level":"error","message":"Auth-error: Forbidden access","method":"GET","stack":"Auth-error: Forbidden access\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Project\\RUET GUEST HOUSE MANAGEMENT\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:31:17\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\mrmak\\OneDrive\\Desktop\\Project\\RUET GUEST HOUSE MANAGEMENT\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-28 11:29:56","url":"/api/v1/user/admin/users"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-28 11:29:57"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-28 11:29:57"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-28 11:29:57"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-28 11:29:57"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-28 11:29:58"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-28 11:30:00"}
+{"level":"info","message":"GET /api/v1/user/admin/users","timestamp":"2025-04-28 11:30:12"}
+{"body":{},"error":{"HTTPStatus":403,"cause":null,"isTrusted":true,"name":"Auth-error"},"level":"error","message":"Auth-error: Forbidden access","method":"GET","stack":"Auth-error: Forbidden access\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Project\\RUET GUEST HOUSE MANAGEMENT\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:31:17\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\mrmak\\OneDrive\\Desktop\\Project\\RUET GUEST HOUSE MANAGEMENT\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-28 11:30:12","url":"/api/v1/user/admin/users"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-28 11:30:14"}
+{"level":"info","message":"POST /api/v1/room/create-room","timestamp":"2025-04-28 11:31:05"}
+{"level":"info","message":"GET /api/v1/dashboard/admin","timestamp":"2025-04-28 11:31:08"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-28 11:31:11"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-28 11:31:30"}
+{"level":"info","message":"GET /api/v1/user/profile","timestamp":"2025-04-28 11:31:47"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-28 11:31:50"}
+{"level":"info","message":"POST /api/v1/contact","timestamp":"2025-04-28 11:32:32"}
+{"HTTPStatus":500,"cause":null,"isTrusted":true,"level":"error","message":"Failed to create new room: getaddrinfo ENOTFOUND smtp.gmail.com Failed to create new room: getaddrinfo ENOTFOUND smtp.gmail.com","name":"Error","stack":"Error: Failed to create new room: getaddrinfo ENOTFOUND smtp.gmail.com\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Project\\RUET GUEST HOUSE MANAGEMENT\\Guest-House-Backend-main\\src\\domains\\routes\\contact.route.ts:57:13\n    at Generator.throw (<anonymous>)\n    at rejected (C:\\Users\\mrmak\\OneDrive\\Desktop\\Project\\RUET GUEST HOUSE MANAGEMENT\\Guest-House-Backend-main\\src\\domains\\routes\\contact.route.ts:6:65)","timestamp":"2025-04-28 11:32:58"}
+{"level":"info","message":"GET /api/v1/booking/get-available-rooms?checkIn=2025-04-29&checkOut=2025-05-02&capacity=%5B1%2C2%5D&totalRooms=1","timestamp":"2025-04-28 11:33:16"}
+{"level":"info","message":"POST /api/v1/booking/book-rooms","timestamp":"2025-04-28 11:33:37"}
+{"level":"info","message":"POST /api/v1/payment/make-payment/cma0n7k300004gb1i36m8tlfu","timestamp":"2025-04-28 11:33:37"}
+{"level":"info","message":"POST /api/v1/booking/book-rooms","timestamp":"2025-04-28 11:33:55"}
+{"level":"info","message":"POST /api/v1/booking/book-rooms","timestamp":"2025-04-28 11:34:02"}
+{"level":"info","message":"POST /api/v1/booking/book-rooms","timestamp":"2025-04-28 11:34:23"}
+{"level":"info","message":"POST /api/v1/booking/book-rooms","timestamp":"2025-04-28 11:34:24"}
+{"level":"info","message":"POST /api/v1/booking/book-rooms","timestamp":"2025-04-28 11:34:24"}
+{"HTTPStatus":500,"cause":null,"isTrusted":true,"level":"error","message":"queryA ETIMEOUT smtp.gmail.com queryA ETIMEOUT smtp.gmail.com","name":"Error","stack":"Error: queryA ETIMEOUT smtp.gmail.com\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:45:19)\n    at QueryReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)","timestamp":"2025-04-28 11:34:31"}
+{"level":"info","message":"GET /api/v1/booking/get-available-rooms?checkIn=2025-04-28&checkOut=2025-04-29&capacity=%5B1%2C2%5D&totalRooms=1","timestamp":"2025-04-28 11:34:39"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-28 11:35:34"}
+{"level":"info","message":"GET /api/v1/dashboard/admin","timestamp":"2025-04-28 11:35:35"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-28 11:35:35"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-28 11:35:39"}
+{"level":"info","message":"GET /api/v1/user/admin/users","timestamp":"2025-04-28 11:35:40"}
+{"body":{},"error":{"HTTPStatus":403,"cause":null,"isTrusted":true,"name":"Auth-error"},"level":"error","message":"Auth-error: Forbidden access","method":"GET","stack":"Auth-error: Forbidden access\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Project\\RUET GUEST HOUSE MANAGEMENT\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:31:17\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\mrmak\\OneDrive\\Desktop\\Project\\RUET GUEST HOUSE MANAGEMENT\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-28 11:35:40","url":"/api/v1/user/admin/users"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-28 11:35:41"}
+{"level":"info","message":"POST /api/v1/room/create-room","timestamp":"2025-04-28 11:36:46"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-28 11:36:46"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-28 11:37:14"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-28 11:37:30"}
+{"level":"info","message":"POST /api/v1/contact","timestamp":"2025-04-28 11:37:49"}
+{"level":"info","message":"GET /api/v1/booking/get-available-rooms?checkIn=2025-04-29&checkOut=2025-05-04&capacity=%5B1%2C2%5D&totalRooms=1","timestamp":"2025-04-28 11:38:26"}
+{"HTTPStatus":500,"cause":null,"isTrusted":true,"level":"error","message":"Failed to create new room: connect ETIMEDOUT 192.168.0.1:587 Failed to create new room: connect ETIMEDOUT 192.168.0.1:587","name":"Error","stack":"Error: Failed to create new room: connect ETIMEDOUT 192.168.0.1:587\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Project\\RUET GUEST HOUSE MANAGEMENT\\Guest-House-Backend-main\\src\\domains\\routes\\contact.route.ts:57:13\n    at Generator.throw (<anonymous>)\n    at rejected (C:\\Users\\mrmak\\OneDrive\\Desktop\\Project\\RUET GUEST HOUSE MANAGEMENT\\Guest-House-Backend-main\\src\\domains\\routes\\contact.route.ts:6:65)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-28 11:38:38"}
+{"level":"info","message":"POST /api/v1/booking/book-rooms","timestamp":"2025-04-28 11:38:39"}
+{"HTTPStatus":500,"cause":null,"isTrusted":true,"level":"error","message":"connect EHOSTUNREACH 192.168.0.1:587 connect EHOSTUNREACH 192.168.0.1:587","name":"Error","stack":"Error: connect EHOSTUNREACH 192.168.0.1:587\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)\n    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)","timestamp":"2025-04-28 11:38:39"}
+{"level":"info","message":"POST /api/v1/payment/make-payment/cma0ne1n5000fgb1i9c129ax5","timestamp":"2025-04-28 11:38:39"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2025-04-28 11:43:21"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2025-04-28 11:43:21"}
+{"level":"info","message":"Starting web server...","timestamp":"2025-04-28 11:43:22"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2025-04-28 11:43:22"}
+{"level":"info","message":"Defining routes...","timestamp":"2025-04-28 11:43:22"}
+{"level":"info","message":"Routes defined","timestamp":"2025-04-28 11:43:22"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2025-04-28 11:43:22"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2025-04-28 11:43:22"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-28 11:44:51"}
+{"level":"info","message":"GET /api/v1/booking/get-available-rooms?checkIn=2025-04-28&checkOut=2025-04-29&capacity=%5B1%2C2%5D&totalRooms=1","timestamp":"2025-04-28 11:44:58"}
+{"level":"info","message":"POST /api/v1/booking/book-rooms","timestamp":"2025-04-28 11:45:07"}
+{"level":"info","message":"POST /api/v1/payment/make-payment/cma0nmd0p0002b2376oae9vbn","timestamp":"2025-04-28 11:45:08"}
+{"level":"info","message":"GET /api/v1/booking/get-available-rooms?checkIn=2025-04-28&checkOut=2025-04-29&capacity=%5B1%2C2%5D&totalRooms=1&selectedRooms=%5B%7B%22room%22%3A%7B%22id%22%3A%22cm9zttf5i0004a2agnpn3qjjp%22%2C%22roomNumber%22%3A%2210%22%2C%22roomName%22%3A%22102%22%2C%22type%22%3A%22SINGLE%22%2C%22status%22%3A%22AVAILABLE%22%2C%22floor%22%3A1%2C%22capacity%22%3A2%2C%22pricePerNight%22%3A1000%2C%22description%22%3A%22%22%2C%22hasWifi%22%3Atrue%2C%22hasAC%22%3Atrue%2C%22hasTv%22%3Atrue%2C%22hasRefrigerator%22%3Atrue%2C%22squareFootage%22%3A100%2C%22viewType%22%3A%22%22%2C%22lastCleaned%22%3Anull%2C%22lastMaintenance%22%3Anull%2C%22isAvailable%22%3Atrue%2C%22createdAt%22%3A%222025-04-27T15%3A50%3A48.823Z%22%2C%22updatedAt%22%3A%222025-04-27T15%3A50%3A48.823Z%22%7D%2C%22adults%22%3A%222%22%2C%22children%22%3A0%7D%5D","timestamp":"2025-04-28 11:45:29"}
+{"level":"info","message":"POST /api/v1/booking/book-rooms","timestamp":"2025-04-28 11:45:31"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-28 11:51:57"}
+{"level":"info","message":"GET /api/v1/booking/get-available-rooms?checkIn=2025-04-28&checkOut=2025-04-30&capacity=%5B1%2C2%5D&totalRooms=1","timestamp":"2025-04-28 11:52:04"}
+{"level":"info","message":"GET /api/v1/booking/get-available-rooms?checkIn=2025-04-28&checkOut=2025-05-24&capacity=%5B1%2C2%5D&totalRooms=1","timestamp":"2025-04-28 11:52:22"}
+{"level":"info","message":"POST /api/v1/booking/book-rooms","timestamp":"2025-04-28 11:52:25"}
+{"level":"info","message":"POST /api/v1/payment/make-payment/cma0nvqkk0007b237rizf49m7","timestamp":"2025-04-28 11:52:25"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-28 11:52:59"}
+{"level":"info","message":"GET /api/v1/dashboard/admin","timestamp":"2025-04-28 11:53:00"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-28 11:53:04"}
+{"level":"info","message":"DELETE /api/v1/room/cm9x2vg0n00007a5zxty4w0wx","timestamp":"2025-04-28 11:53:13"}
+{"level":"info","message":"DELETE /api/v1/room/cm9x2zl8n00037a5zjgl85ede","timestamp":"2025-04-28 11:53:15"}
+{"level":"info","message":"DELETE /api/v1/room/cm9zto2ia0000a2ag1svla3vw","timestamp":"2025-04-28 11:53:18"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-28 11:53:18"}
+{"level":"info","message":"DELETE /api/v1/room/cm9zttf5i0004a2agnpn3qjjp","timestamp":"2025-04-28 11:53:21"}
+{"level":"info","message":"DELETE /api/v1/room/cm9zvcj3g00006jsoz36p693f","timestamp":"2025-04-28 11:53:23"}
+{"level":"info","message":"DELETE /api/v1/room/cm9zttf5i0004a2agnpn3qjjp","timestamp":"2025-04-28 11:53:25"}
+{"level":"info","message":"DELETE /api/v1/room/cm9zvcj3g00006jsoz36p693f","timestamp":"2025-04-28 11:53:27"}
+{"level":"info","message":"DELETE /api/v1/room/cm9x55dl80007kcsyw6fdvu7s","timestamp":"2025-04-28 11:53:29"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-28 11:53:30"}
+{"level":"info","message":"DELETE /api/v1/room/cm9x2vg0n00007a5zxty4w0wx","timestamp":"2025-04-28 11:53:47"}
+{"level":"info","message":"DELETE /api/v1/room/cm9x2vg0n00007a5zxty4w0wx","timestamp":"2025-04-28 11:53:50"}
+{"level":"info","message":"DELETE /api/v1/room/cm9x2zl8n00037a5zjgl85ede","timestamp":"2025-04-28 11:53:52"}
+{"level":"info","message":"DELETE /api/v1/room/cm9x55dl80007kcsyw6fdvu7s","timestamp":"2025-04-28 11:53:53"}
+{"level":"info","message":"DELETE /api/v1/room/cm9x5itzp000kkcsyt0wxkk4d","timestamp":"2025-04-28 11:53:56"}
+{"level":"info","message":"DELETE /api/v1/room/cm9ztp5iy0002a2agbf6h5csr","timestamp":"2025-04-28 11:53:58"}
+{"level":"info","message":"DELETE /api/v1/room/cm9zvcj3g00006jsoz36p693f","timestamp":"2025-04-28 11:54:00"}
+{"level":"info","message":"DELETE /api/v1/room/cma0nblwv000bgb1iafd8gyv4","timestamp":"2025-04-28 11:54:02"}
+{"level":"info","message":"GET /api/v1/dashboard/admin","timestamp":"2025-04-28 11:54:04"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-28 11:54:15"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-28 11:54:21"}
+{"level":"info","message":"GET /api/v1/dashboard/admin","timestamp":"2025-04-28 11:54:21"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-28 11:54:24"}
+{"level":"info","message":"DELETE /api/v1/room/cm9x2vg0n00007a5zxty4w0wx","timestamp":"2025-04-28 11:54:38"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-28 11:54:44"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-28 11:55:31"}
+{"level":"info","message":"GET /api/v1/dashboard/admin","timestamp":"2025-04-28 11:55:31"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-28 11:55:34"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-28 11:55:35"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-28 11:55:36"}
+{"level":"info","message":"GET /api/v1/user/admin/users","timestamp":"2025-04-28 11:55:37"}
+{"body":{},"error":{"HTTPStatus":403,"cause":null,"isTrusted":true,"name":"Auth-error"},"level":"error","message":"Auth-error: Forbidden access","method":"GET","stack":"Auth-error: Forbidden access\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Project\\RUET GUEST HOUSE MANAGEMENT\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:31:17\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\mrmak\\OneDrive\\Desktop\\Project\\RUET GUEST HOUSE MANAGEMENT\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-28 11:55:37","url":"/api/v1/user/admin/users"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-28 11:55:38"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-28 11:55:38"}
+{"level":"info","message":"POST /api/v1/room/create-room","timestamp":"2025-04-28 11:56:38"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-28 11:56:38"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-28 11:56:40"}
+{"level":"info","message":"GET /api/v1/dashboard/admin","timestamp":"2025-04-28 11:56:41"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-28 11:56:50"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-28 11:57:07"}
+{"level":"info","message":"GET /api/v1/booking/get-available-rooms?checkIn=2025-04-29&checkOut=2025-05-15&capacity=%5B1%2C2%5D&totalRooms=1","timestamp":"2025-04-28 11:57:30"}
+{"level":"info","message":"POST /api/v1/booking/book-rooms","timestamp":"2025-04-28 11:57:39"}
+{"level":"info","message":"POST /api/v1/payment/make-payment/cma0o2gwi000db237lmlldgvk","timestamp":"2025-04-28 11:57:39"}
+{"level":"info","message":"POST /api/v1/payment/confirm-payment/42d39e74-6c9c-4a9e-b0b9-dc8997144a40","timestamp":"2025-04-28 11:58:19"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-28 11:58:56"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-28 11:59:12"}
+{"level":"info","message":"GET /api/v1/dashboard/admin","timestamp":"2025-04-28 11:59:12"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-28 11:59:22"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-28 11:59:28"}
+{"level":"info","message":"GET /api/v1/dashboard/admin","timestamp":"2025-04-28 11:59:40"}
+{"level":"info","message":"GET /api/v1/user/admin/users","timestamp":"2025-04-28 11:59:41"}
+{"body":{},"error":{"HTTPStatus":403,"cause":null,"isTrusted":true,"name":"Auth-error"},"level":"error","message":"Auth-error: Forbidden access","method":"GET","stack":"Auth-error: Forbidden access\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Project\\RUET GUEST HOUSE MANAGEMENT\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:31:17\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\mrmak\\OneDrive\\Desktop\\Project\\RUET GUEST HOUSE MANAGEMENT\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-28 11:59:41","url":"/api/v1/user/admin/users"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-28 11:59:43"}
+{"level":"info","message":"GET /api/v1/dashboard/admin","timestamp":"2025-04-28 11:59:47"}

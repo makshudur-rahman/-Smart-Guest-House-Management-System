@@ -1,0 +1,151 @@
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2025-04-25 23:10:40"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2025-04-25 23:10:40"}
+{"level":"info","message":"Starting web server...","timestamp":"2025-04-25 23:10:43"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2025-04-25 23:10:43"}
+{"level":"info","message":"Defining routes...","timestamp":"2025-04-25 23:10:43"}
+{"level":"info","message":"Routes defined","timestamp":"2025-04-25 23:10:43"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2025-04-25 23:10:43"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2025-04-25 23:10:43"}
+{"level":"error","message":"App received SIGINT event, try to gracefully close the server","timestamp":"2025-04-25 23:11:06"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2025-04-25 23:11:12"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2025-04-25 23:11:12"}
+{"level":"info","message":"Starting web server...","timestamp":"2025-04-25 23:11:14"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2025-04-25 23:11:14"}
+{"level":"info","message":"Defining routes...","timestamp":"2025-04-25 23:11:14"}
+{"level":"info","message":"Routes defined","timestamp":"2025-04-25 23:11:14"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2025-04-25 23:11:14"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2025-04-25 23:11:14"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-25 23:11:36"}
+{"body":{},"error":{"HTTPStatus":401,"cause":null,"isTrusted":true,"name":"Auth-error"},"level":"error","message":"Auth-error: You Are Unauthorized","method":"GET","stack":"Auth-error: You Are Unauthorized\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:22:25\n    at Generator.next (<anonymous>)\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:4:12)\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:14:68\n    at Layer.handle [as handle_request] (C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\node_modules\\express\\lib\\router\\layer.js:95:5)","timestamp":"2025-04-25 23:11:36","url":"/api/v1/booking/get-bookings"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-25 23:11:50"}
+{"body":{},"error":{"HTTPStatus":401,"cause":null,"isTrusted":true,"name":"Auth-error"},"level":"error","message":"Auth-error: You Are Unauthorized","method":"GET","stack":"Auth-error: You Are Unauthorized\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:22:25\n    at Generator.next (<anonymous>)\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:4:12)\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:14:68\n    at Layer.handle [as handle_request] (C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\node_modules\\express\\lib\\router\\layer.js:95:5)","timestamp":"2025-04-25 23:11:50","url":"/api/v1/booking/get-bookings"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-25 23:25:20"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-25 23:25:25"}
+{"level":"info","message":"GET /api/v1/user/profile","timestamp":"2025-04-25 23:26:04"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-25 23:26:47"}
+{"body":{},"error":{"HTTPStatus":403,"cause":null,"isTrusted":true,"name":"Auth-error"},"level":"error","message":"Auth-error: Forbidden access","method":"GET","stack":"Auth-error: Forbidden access\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:31:17\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-25 23:26:47","url":"/api/v1/room/get-all-rooms"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-25 23:27:01"}
+{"body":{},"error":{"HTTPStatus":403,"cause":null,"isTrusted":true,"name":"Auth-error"},"level":"error","message":"Auth-error: Forbidden access","method":"GET","stack":"Auth-error: Forbidden access\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:31:17\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-25 23:27:01","url":"/api/v1/room/get-all-rooms"}
+{"level":"info","message":"POST /api/v1/room/create-room","timestamp":"2025-04-25 23:27:50"}
+{"body":{"beds":[{"bedType":"SINGLE","capacity":1,"quantity":1}],"capacity":2,"description":"","floor":1,"hasAC":true,"hasRefrigerator":true,"hasTv":true,"hasWifi":true,"pricePerNight":600,"roomName":"Demo","roomNumber":"101","squareFootage":0,"status":"AVAILABLE","type":"SINGLE","viewType":""},"error":{"HTTPStatus":403,"cause":null,"isTrusted":true,"name":"Auth-error"},"level":"error","message":"Auth-error: Forbidden access","method":"POST","stack":"Auth-error: Forbidden access\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:31:17\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-25 23:27:50","url":"/api/v1/room/create-room"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-25 23:27:52"}
+{"body":{},"error":{"HTTPStatus":403,"cause":null,"isTrusted":true,"name":"Auth-error"},"level":"error","message":"Auth-error: Forbidden access","method":"GET","stack":"Auth-error: Forbidden access\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:31:17\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-25 23:27:52","url":"/api/v1/room/get-all-rooms"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-25 23:28:08"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-25 23:28:09"}
+{"body":{},"error":{"HTTPStatus":403,"cause":null,"isTrusted":true,"name":"Auth-error"},"level":"error","message":"Auth-error: Forbidden access","method":"GET","stack":"Auth-error: Forbidden access\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:31:17\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-25 23:28:09","url":"/api/v1/room/get-all-rooms"}
+{"level":"info","message":"GET /api/v1/dashboard/admin","timestamp":"2025-04-25 23:28:11"}
+{"body":{},"error":{"HTTPStatus":403,"cause":null,"isTrusted":true,"name":"Auth-error"},"level":"error","message":"Auth-error: Forbidden access","method":"GET","stack":"Auth-error: Forbidden access\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:31:17\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-25 23:28:11","url":"/api/v1/dashboard/admin"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-25 23:28:12"}
+{"body":{},"error":{"HTTPStatus":403,"cause":null,"isTrusted":true,"name":"Auth-error"},"level":"error","message":"Auth-error: Forbidden access","method":"GET","stack":"Auth-error: Forbidden access\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:31:17\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-25 23:28:12","url":"/api/v1/room/get-all-rooms"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-25 23:28:13"}
+{"level":"info","message":"GET /api/v1/booking/get-available-rooms?checkIn=2025-04-25&checkOut=2025-04-26&capacity=%5B1%2C2%5D&totalRooms=1","timestamp":"2025-04-25 23:28:29"}
+{"level":"info","message":"GET /api/v1/booking/get-available-rooms?checkIn=2025-04-26&checkOut=2025-04-27&capacity=%5B1%2C2%5D&totalRooms=1","timestamp":"2025-04-25 23:28:41"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-25 23:28:44"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-25 23:29:18"}
+{"body":{},"error":{"HTTPStatus":403,"cause":null,"isTrusted":true,"name":"Auth-error"},"level":"error","message":"Auth-error: Forbidden access","method":"GET","stack":"Auth-error: Forbidden access\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:31:17\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-25 23:29:18","url":"/api/v1/room/get-all-rooms"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-25 23:30:21"}
+{"body":{},"error":{"HTTPStatus":401,"cause":null,"isTrusted":true,"name":"Auth-error"},"level":"error","message":"Auth-error: You Are Unauthorized","method":"GET","stack":"Auth-error: You Are Unauthorized\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:22:25\n    at Generator.next (<anonymous>)\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:4:12)\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:14:68\n    at Layer.handle [as handle_request] (C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\node_modules\\express\\lib\\router\\layer.js:95:5)","timestamp":"2025-04-25 23:30:21","url":"/api/v1/room/get-all-rooms"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-25 23:31:45"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-25 23:32:05"}
+{"body":{},"error":{"HTTPStatus":403,"cause":null,"isTrusted":true,"name":"Auth-error"},"level":"error","message":"Auth-error: Forbidden access","method":"GET","stack":"Auth-error: Forbidden access\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:31:17\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-25 23:32:05","url":"/api/v1/room/get-all-rooms"}
+{"level":"error","message":"App received SIGINT event, try to gracefully close the server","timestamp":"2025-04-25 23:33:42"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2025-04-25 23:34:22"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2025-04-25 23:34:22"}
+{"level":"info","message":"Starting web server...","timestamp":"2025-04-25 23:34:25"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2025-04-25 23:34:25"}
+{"level":"info","message":"Defining routes...","timestamp":"2025-04-25 23:34:25"}
+{"level":"info","message":"Routes defined","timestamp":"2025-04-25 23:34:25"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2025-04-25 23:34:25"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2025-04-25 23:34:25"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-25 23:34:47"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-25 23:34:57"}
+{"body":{},"error":{"HTTPStatus":403,"cause":null,"isTrusted":true,"name":"Auth-error"},"level":"error","message":"Auth-error: Forbidden access","method":"GET","stack":"Auth-error: Forbidden access\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:31:17\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-25 23:34:57","url":"/api/v1/room/get-all-rooms"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-25 23:36:34"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-25 23:38:14"}
+{"level":"error","message":"App received SIGINT event, try to gracefully close the server","timestamp":"2025-04-25 23:39:11"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2025-04-25 23:39:28"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2025-04-25 23:39:28"}
+{"level":"info","message":"Starting web server...","timestamp":"2025-04-25 23:39:30"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2025-04-25 23:39:30"}
+{"level":"info","message":"Defining routes...","timestamp":"2025-04-25 23:39:30"}
+{"level":"info","message":"Routes defined","timestamp":"2025-04-25 23:39:30"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2025-04-25 23:39:30"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2025-04-25 23:39:30"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-25 23:39:33"}
+{"level":"info","message":"GET /api/v1/dashboard/admin","timestamp":"2025-04-25 23:39:34"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-25 23:39:37"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-25 23:39:40"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-25 23:39:41"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-25 23:39:47"}
+{"level":"info","message":"POST /api/v1/room/create-room","timestamp":"2025-04-25 23:40:03"}
+{"errors":["Number must be greater than 0"],"level":"error","message":"POST /api/v1/room/create-room Validation failed","timestamp":"2025-04-25 23:40:03"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-25 23:40:04"}
+{"level":"info","message":"GET /api/v1/dashboard/admin","timestamp":"2025-04-25 23:40:06"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-25 23:40:08"}
+{"level":"info","message":"POST /api/v1/room/create-room","timestamp":"2025-04-25 23:41:01"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-25 23:41:01"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2025-04-25 23:41:44"}
+{"level":"info","message":"POST /api/v1/auth/verify-email?email=shrafid.532@gmail.com&token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNocmFmaWQuNTMyQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoibWFrc2h1ZCIsInJvbGUiOiJVU0VSIiwiaXNBY3RpdmUiOnRydWUsImlzRW1haWxWZXJpZmllZCI6ZmFsc2UsImlkIjoiY205eDJ3ZHFkMDAwMjdhNXpvN3A1dHk3ayIsImlhdCI6MTc0NTYwMjkwNCwiZXhwIjoxNzQ1Njg5MzA0fQ.o4RvyqGgRJanmMaQDNPHkQJfhIh7k6nz2uFV49HpK3Qs-lpsgbrLCYf3zEWq3IxcVfh3Oqs3Eqlkb9HoXuN8pYGBB_ExGqp1TPnf5AIkMr1y3QYxokW9hseCD7jzAV3FH_S59BXVfbCu6xGAKb5e9eu2vSohHLZQR30_GhRZGlsXUKaMX4FlMp8SWBaeLRRE7z-Hu-EVrkBH6xEFwzCHyDlJEstBMcpd4heOCaR83Z9PHqnRmRCN3pzmY_JGwXzeWCK4ByOJ9Vjr57NDqcYCXy7DFpP3tG_Az0ooEzihf_kpart0K6Fupal8z5bJAX7WKi9XfZidiJhuRW2huuMKmYG_0nrKBL86JJ-5TaFFn_v1GrcQFWPTYVfparW7HYkU8sGG8inzEsBtL6anUx6QU6gFrGsvQuknIJQr1xaYX_RFnZEO1lbX3iiakQVCZGpH2jVfwbydy9_9Ew4p-1wRrk66xH3UIR_S_8KMFo2XkhIkmmxzjTKjadunveL9pOPWBuPtcBJILARdb1h9fULo1IglWIR6XMPbDcofFyLmqa6w1BE51sppxFwCUzn7kmOZJ9f9u1_u8FiWRQfM8p3Ovhss48ejthUTf-PwAi3SQwfB0378s5WiNJrtpGZUDO7oaeH00tOJ-K1ZRrEF8Yky5E8Us8iXuqWdn801fdmhUGM","timestamp":"2025-04-25 23:42:37"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-25 23:42:49"}
+{"level":"info","message":"GET /api/v1/booking/get-available-rooms?checkIn=2025-04-26&checkOut=2025-04-27&capacity=%5B1%2C1%5D&totalRooms=1","timestamp":"2025-04-25 23:43:08"}
+{"level":"info","message":"GET /api/v1/booking/get-available-rooms?checkIn=2025-04-25&checkOut=2025-04-25&capacity=%5B1%2C1%5D&totalRooms=1","timestamp":"2025-04-25 23:43:15"}
+{"level":"info","message":"GET /api/v1/booking/get-available-rooms?checkIn=2025-04-26&checkOut=2025-04-27&capacity=%5B1%2C1%5D&totalRooms=1","timestamp":"2025-04-25 23:43:27"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-25 23:43:35"}
+{"level":"info","message":"GET /api/v1/dashboard/admin","timestamp":"2025-04-25 23:43:36"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-25 23:43:38"}
+{"level":"info","message":"GET /api/v1/dashboard/admin","timestamp":"2025-04-25 23:43:41"}
+{"level":"info","message":"POST /api/v1/room/create-room","timestamp":"2025-04-25 23:44:14"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-25 23:44:14"}
+{"level":"info","message":"GET /api/v1/booking/get-available-rooms?checkIn=2025-04-26&checkOut=2025-04-27&capacity=%5B1%2C1%5D&totalRooms=1","timestamp":"2025-04-25 23:44:34"}
+{"level":"info","message":"GET /api/v1/booking/get-available-rooms?checkIn=2025-04-25&checkOut=2025-04-25&capacity=%5B1%2C1%5D&totalRooms=1","timestamp":"2025-04-25 23:44:37"}
+{"level":"info","message":"GET /api/v1/booking/get-available-rooms?checkIn=2025-04-26&checkOut=2025-04-27&capacity=%5B1%2C2%5D&totalRooms=1","timestamp":"2025-04-25 23:46:39"}
+{"level":"info","message":"POST /api/v1/booking/book-rooms","timestamp":"2025-04-25 23:46:44"}
+{"level":"info","message":"POST /api/v1/payment/make-payment/cm9x32skl00077a5zvalhk64m","timestamp":"2025-04-25 23:46:44"}
+{"body":{"amount":6000,"currency":"bdt"},"error":{"HTTPStatus":403,"cause":null,"isTrusted":true,"name":"Auth-error"},"level":"error","message":"Auth-error: Forbidden access","method":"POST","stack":"Auth-error: Forbidden access\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:31:17\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-25 23:46:44","url":"/api/v1/payment/make-payment/cm9x32skl00077a5zvalhk64m"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-25 23:47:15"}
+{"level":"info","message":"GET /api/v1/booking/get-available-rooms?checkIn=2025-04-26&checkOut=2025-04-27&capacity=%5B1%2C2%5D&totalRooms=1","timestamp":"2025-04-25 23:47:35"}
+{"level":"info","message":"POST /api/v1/booking/book-rooms","timestamp":"2025-04-25 23:47:38"}
+{"level":"info","message":"POST /api/v1/payment/make-payment/cm9x33yjc000a7a5ztbxx2ja8","timestamp":"2025-04-25 23:47:38"}
+{"level":"info","message":"GET /api/v1/booking/get-available-rooms?checkIn=2025-04-26&checkOut=2025-04-27&capacity=%5B1%2C2%5D&totalRooms=1&selectedRooms=%5B%7B%22room%22%3A%7B%22id%22%3A%22cm9x2vg0n00007a5zxty4w0wx%22%2C%22roomNumber%22%3A%221%22%2C%22roomName%22%3A%22101%22%2C%22type%22%3A%22SINGLE%22%2C%22status%22%3A%22AVAILABLE%22%2C%22floor%22%3A1%2C%22capacity%22%3A2%2C%22pricePerNight%22%3A5000%2C%22description%22%3A%22%22%2C%22hasWifi%22%3Atrue%2C%22hasAC%22%3Atrue%2C%22hasTv%22%3Atrue%2C%22hasRefrigerator%22%3Atrue%2C%22squareFootage%22%3A100%2C%22viewType%22%3A%22%22%2C%22lastCleaned%22%3Anull%2C%22lastMaintenance%22%3Anull%2C%22isAvailable%22%3Atrue%2C%22createdAt%22%3A%222025-04-25T17%3A41%3A01.271Z%22%2C%22updatedAt%22%3A%222025-04-25T17%3A41%3A01.271Z%22%7D%2C%22adults%22%3A1%2C%22children%22%3A0%7D%5D","timestamp":"2025-04-25 23:48:31"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-25 23:48:40"}
+{"level":"info","message":"POST /api/v1/payment/make-payment/cm9x32skl00077a5zvalhk64m","timestamp":"2025-04-25 23:48:51"}
+{"level":"info","message":"POST /api/v1/payment/make-payment/cm9x32skl00077a5zvalhk64m","timestamp":"2025-04-25 23:48:52"}
+{"level":"info","message":"POST /api/v1/payment/make-payment/cm9x32skl00077a5zvalhk64m","timestamp":"2025-04-25 23:48:52"}
+{"level":"info","message":"POST /api/v1/payment/make-payment/cm9x32skl00077a5zvalhk64m","timestamp":"2025-04-25 23:48:53"}
+{"level":"info","message":"POST /api/v1/payment/make-payment/cm9x32skl00077a5zvalhk64m","timestamp":"2025-04-25 23:49:01"}
+{"level":"info","message":"POST /api/v1/payment/make-payment/cm9x32skl00077a5zvalhk64m","timestamp":"2025-04-25 23:49:02"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-25 23:49:15"}
+{"level":"info","message":"GET /api/v1/booking/get-available-rooms?checkIn=2025-04-28&checkOut=2025-04-30&capacity=%5B1%2C2%5D&totalRooms=1","timestamp":"2025-04-25 23:49:39"}
+{"level":"info","message":"POST /api/v1/booking/book-rooms","timestamp":"2025-04-25 23:49:45"}
+{"level":"info","message":"POST /api/v1/payment/make-payment/cm9x36oif000k7a5zgjk7gtr9","timestamp":"2025-04-25 23:49:45"}
+{"level":"info","message":"POST /api/v1/payment/confirm-payment/a07ef0fb-43b7-471c-a2a0-5ae0c0ad6c42","timestamp":"2025-04-25 23:50:20"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-25 23:50:38"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-25 23:51:03"}
+{"level":"info","message":"GET /api/v1/dashboard/admin","timestamp":"2025-04-25 23:51:04"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-25 23:51:07"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-25 23:51:07"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-25 23:51:09"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-25 23:51:10"}
+{"level":"info","message":"POST /api/v1/room/create-room","timestamp":"2025-04-25 23:51:25"}
+{"errors":["Number must be greater than 0"],"level":"error","message":"POST /api/v1/room/create-room Validation failed","timestamp":"2025-04-25 23:51:25"}
+{"level":"info","message":"POST /api/v1/room/create-room","timestamp":"2025-04-25 23:51:40"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-25 23:51:40"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-25 23:51:44"}
+{"level":"info","message":"GET /api/v1/user/admin/users","timestamp":"2025-04-25 23:51:51"}
+{"body":{},"error":{"HTTPStatus":403,"cause":null,"isTrusted":true,"name":"Auth-error"},"level":"error","message":"Auth-error: Forbidden access","method":"GET","stack":"Auth-error: Forbidden access\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:31:17\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\mrmak\\OneDrive\\Desktop\\Telegram Desktop\\3-2\\ETE 3200 (PROJECT)\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-25 23:51:51","url":"/api/v1/user/admin/users"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-25 23:51:52"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-25 23:52:07"}
+{"level":"info","message":"GET /api/v1/booking/get-available-rooms?checkIn=2025-05-01&checkOut=2025-04-04&capacity=%5B1%2C2%5D&totalRooms=1","timestamp":"2025-04-25 23:52:29"}
+{"level":"info","message":"GET /api/v1/booking/get-available-rooms?checkIn=2025-05-01&checkOut=2025-05-04&capacity=%5B1%2C2%5D&totalRooms=1","timestamp":"2025-04-25 23:52:48"}
+{"level":"info","message":"POST /api/v1/booking/book-rooms","timestamp":"2025-04-25 23:52:55"}
+{"level":"info","message":"POST /api/v1/payment/make-payment/cm9x3ar1p000r7a5zaanksjbx","timestamp":"2025-04-25 23:52:55"}
+{"level":"info","message":"POST /api/v1/payment/confirm-payment/d1735ca2-88c4-444c-80cf-e73f5b34b0ec","timestamp":"2025-04-25 23:53:23"}
+{"level":"error","message":"App received SIGINT event, try to gracefully close the server","timestamp":"2025-04-25 23:54:46"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2025-04-25 23:54:58"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2025-04-25 23:54:58"}
+{"level":"info","message":"Starting web server...","timestamp":"2025-04-25 23:55:00"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2025-04-25 23:55:00"}
+{"level":"info","message":"Defining routes...","timestamp":"2025-04-25 23:55:00"}
+{"level":"info","message":"Routes defined","timestamp":"2025-04-25 23:55:00"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2025-04-25 23:55:00"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2025-04-25 23:55:00"}

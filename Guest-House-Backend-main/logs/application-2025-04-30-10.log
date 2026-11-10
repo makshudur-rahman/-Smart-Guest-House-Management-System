@@ -1,0 +1,10 @@
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2025-04-30 10:40:16"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2025-04-30 10:40:16"}
+{"level":"info","message":"Starting web server...","timestamp":"2025-04-30 10:40:18"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2025-04-30 10:40:18"}
+{"level":"info","message":"Defining routes...","timestamp":"2025-04-30 10:40:18"}
+{"level":"info","message":"Routes defined","timestamp":"2025-04-30 10:40:18"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2025-04-30 10:40:18"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2025-04-30 10:40:18"}
+{"level":"info","message":"GET /api/v1/booking/get-available-rooms?checkIn=2025-04-30&checkOut=2025-05-06&capacity=%5B1%2C2%5D&totalRooms=1","timestamp":"2025-04-30 10:41:44"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-30 10:41:55"}

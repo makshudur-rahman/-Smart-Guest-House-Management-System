@@ -1,0 +1,30 @@
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2025-04-30 04:04:29"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2025-04-30 04:04:29"}
+{"level":"info","message":"Starting web server...","timestamp":"2025-04-30 04:04:31"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2025-04-30 04:04:31"}
+{"level":"info","message":"Defining routes...","timestamp":"2025-04-30 04:04:31"}
+{"level":"info","message":"Routes defined","timestamp":"2025-04-30 04:04:31"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2025-04-30 04:04:31"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2025-04-30 04:04:31"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-30 04:07:01"}
+{"level":"info","message":"GET /api/v1/dashboard/admin","timestamp":"2025-04-30 04:07:02"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-30 04:07:10"}
+{"level":"info","message":"POST /api/v1/room/create-room","timestamp":"2025-04-30 04:09:28"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-30 04:09:28"}
+{"level":"info","message":"POST /api/v1/room/create-room","timestamp":"2025-04-30 04:10:42"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-30 04:10:42"}
+{"level":"info","message":"POST /api/v1/room/create-room","timestamp":"2025-04-30 04:11:54"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-30 04:11:54"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-30 04:11:56"}
+{"level":"info","message":"GET /api/v1/user/admin/users","timestamp":"2025-04-30 04:12:15"}
+{"body":{},"error":{"HTTPStatus":403,"cause":null,"isTrusted":true,"name":"Auth-error"},"level":"error","message":"Auth-error: Forbidden access","method":"GET","stack":"Auth-error: Forbidden access\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Project\\RUET GUEST HOUSE MANAGEMENT\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:31:17\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\mrmak\\OneDrive\\Desktop\\Project\\RUET GUEST HOUSE MANAGEMENT\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-30 04:12:15","url":"/api/v1/user/admin/users"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2025-04-30 04:13:49"}
+{"level":"info","message":"POST /api/v1/auth/verify-email?email=fpubg220@gmail.com&token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZwdWJnMjIwQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiTWFrc2h1ZCBSTSIsInJvbGUiOiJVU0VSIiwiaXNBY3RpdmUiOnRydWUsImlzRW1haWxWZXJpZmllZCI6ZmFsc2UsImlkIjoiY21hMzJkb2h4MDAwNjdnMXlvd2llamZ0eSIsImlhdCI6MTc0NTk2NDgyOSwiZXhwIjoxNzQ2MDUxMjI5fQ.AaeXYtcwJM6XWdk9eWIWzfqG-710vfQ6TzzgtmVPSWUEQpG1ZHPUONdMcRI4COwUkwwDtyAChVHe433e-P7W6jwXd-nqczM3jpTrrfu3Hk7CjnJbBBAU1A3cjigrCTQj0Dl-iBHhPqb-v6zcRqZXGTUJXtAK-SmP9aChHZOYMSoJNCaS-I7msvWh45fPbypAqRYEcC-Mz68C9AMRlC2q9qb52SJ5VQfIA93oVmI79xngFfrA28MIHTJK_MYWelErUyLagkzUgC2yP60qMMKSxeCj1kA0iodwcHL5HElmW__8GZLkVQMwoIBTROb4TiHgOqUurXL2XsWaVvk4DPci-O9NN_vM8j2Yl1G6ioGxeYYU0nL2XBe_ipIMSuRI0hEKgG_9OMWdDE5Ph4-1NYR5-Uh9SHo_behMHLDEOJ38XKYpfnqtLoBakYrV_0PplX7OHeowX-EOUBpn3ejGzpoyA7QUGslhfvIwKuopvTqflqFqhRdbwPhIyC8V4yvf38ce5rNslCetOCWQtaLijqtSZ9mrx4862sPtbFJ45dedw7FfmlPya6xPblLnUhpqgVjSx2yDzEwkqWKBN0Ktlz6ddq6WaBtNXa1GJg8zBOt2RNpfGmBwVOBZ0CAD-5r6Cp0bIBwMCIoHdvanquqZ47Cx6x0syHK2mi87BltqvBfvftc","timestamp":"2025-04-30 04:14:13"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-30 04:14:40"}
+{"level":"info","message":"GET /api/v1/booking/get-available-rooms?checkIn=2025-04-30&checkOut=2025-05-03&capacity=%5B1%2C2%5D&totalRooms=1","timestamp":"2025-04-30 04:15:23"}
+{"level":"info","message":"POST /api/v1/booking/book-rooms","timestamp":"2025-04-30 04:16:02"}
+{"level":"info","message":"POST /api/v1/payment/make-payment/cma32gjeo00097g1ywlb4c6ox","timestamp":"2025-04-30 04:16:02"}
+{"level":"info","message":"POST /api/v1/payment/confirm-payment/efd35b79-8d37-44f4-82f4-0cbfdf43c5aa","timestamp":"2025-04-30 04:16:47"}
+{"level":"info","message":"POST /api/v1/contact","timestamp":"2025-04-30 04:18:51"}
+{"level":"info","message":"GET /api/v1/user/profile","timestamp":"2025-04-30 04:21:34"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-30 04:21:36"}

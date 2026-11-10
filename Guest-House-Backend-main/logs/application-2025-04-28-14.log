@@ -1,0 +1,14 @@
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-28 14:49:55"}
+{"level":"info","message":"GET /api/v1/dashboard/admin","timestamp":"2025-04-28 14:49:55"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-28 14:49:56"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-28 14:50:00"}
+{"level":"info","message":"POST /api/v1/room/create-room","timestamp":"2025-04-28 14:51:26"}
+{"level":"info","message":"GET /api/v1/room/get-all-rooms","timestamp":"2025-04-28 14:51:26"}
+{"level":"info","message":"GET /api/v1/booking/get-bookings","timestamp":"2025-04-28 14:51:29"}
+{"level":"info","message":"GET /api/v1/user/admin/users","timestamp":"2025-04-28 14:51:33"}
+{"body":{},"error":{"HTTPStatus":403,"cause":null,"isTrusted":true,"name":"Auth-error"},"level":"error","message":"Auth-error: Forbidden access","method":"GET","stack":"Auth-error: Forbidden access\n    at C:\\Users\\mrmak\\OneDrive\\Desktop\\Project\\RUET GUEST HOUSE MANAGEMENT\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:31:17\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\mrmak\\OneDrive\\Desktop\\Project\\RUET GUEST HOUSE MANAGEMENT\\Guest-House-Backend-main\\src\\middlewares\\auth\\checkAuth.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-28 14:51:33","url":"/api/v1/user/admin/users"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2025-04-28 14:51:55"}
+{"level":"info","message":"GET /api/v1/booking/get-available-rooms?checkIn=2025-04-30&checkOut=2025-05-10&capacity=%5B1%2C2%5D&totalRooms=1","timestamp":"2025-04-28 14:52:35"}
+{"level":"info","message":"POST /api/v1/booking/book-rooms","timestamp":"2025-04-28 14:52:46"}
+{"level":"info","message":"POST /api/v1/payment/make-payment/cma0ubo00000imlcm8grcqlgo","timestamp":"2025-04-28 14:52:46"}
+{"level":"info","message":"POST /api/v1/payment/confirm-payment/3aa89efa-c865-44d0-bcbc-6a52bfd62c7d","timestamp":"2025-04-28 14:53:08"}
